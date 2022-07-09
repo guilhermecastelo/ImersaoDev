@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 25px;
+}
+
+body {
+    background-image: url('https://www.bradaronson.com/wp-content/uploads/2012/04/Performance-Measures.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+.central {
+    width: 600px;
+    height: 480px;
+    background-color: #e1e3e6fa;
+    border: 2px solid;
+    border-radius: 10px;
+}
+
+.num,
+.tipos,
+button,
+.resultado,
+h1 {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 45px;
+}
+
+h1 {
+    font-family: consolas;
+    font-size: 35px;
+}
+
+.num>input {
+    width: 30%;
+    margin-left: 15px;
+    text-align: center;
+    border-color: #000;
+    border-radius: 7px;
+}
+
+.tipos>label>select {
+    margin-left: 10px;
+    border-color: #000;
+    border-radius: 7px;
+}
+
+.tipos>label {
+    padding: 25px;
+}
+
+button {
+    width: 170px;
+    cursor: pointer;
+    margin: 40px auto 0 auto;
+    padding: 7px;
+    border: 1px solid #000;
+    border-radius: 6px;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #ffca42;
+}
+
+button:hover {
+    background-color: #e1e3e6;
+}
+
+.resultado {
+    margin-top: 30px;
+    font-weight: bold;
+}

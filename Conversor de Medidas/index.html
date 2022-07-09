@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container">
+
+
+        <div class="central">
+            <h1>Conversor de medidas:</h1>
+
+            <label class="num">Insira um número:
+                <input type="number" id="txtNumero">
+            </label>
+
+            <div class="tipos">
+                <label>De:
+                    <select id="slcAntes">
+                        <option>MM</option>
+                        <option>CM</option>
+                        <option>M</option>
+                        <option>KM</option>
+                    </select>
+                </label>
+
+                <label>Para:
+                    <select id="slcDepois">
+                        <option>MM</option>
+                        <option>CM</option>
+                        <option>M</option>
+                        <option>KM</option>
+                    </select>
+                </label>
+            </div>
+
+            <button onclick="fnCalcula()">Calcular</button>
+
+            <span class="resultado" id="resultado"></span>
+
+        </div>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+
+</html>
